@@ -248,7 +248,7 @@
                 </analysisConfigurationFiles>
                 <versionFormat>^\d+\.\d+\.\d+$</versionFormat>
                 <checkDependencies>true</checkDependencies>
-                <failBuildOnProblemsFound>false</failBuildOnProblemsFound>
+                <failBuildOnProblemsFound>true</failBuildOnProblemsFound>
                 </configuration>
                 <dependencies>
                 <dependency>
