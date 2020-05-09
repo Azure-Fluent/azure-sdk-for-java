@@ -64,7 +64,7 @@
             <dependency>
                 <groupId>com.azure</groupId>
                 <artifactId>azure-core-management</artifactId>
-                <version>1.0.0-beta.8-SNAPSHOT</version>
+                <version>1.0.0-beta.8</version>
             </dependency>
             <dependency>
                 <groupId>com.azure</groupId>
@@ -221,7 +221,7 @@
                 <xmlOutput>true</xmlOutput>
                 <spotbugsXmlOutputDirectory>${project.build.directory}/spotbugs</spotbugsXmlOutputDirectory>
                 <excludeFilterFile>spotbugs/spotbugs-exclude.xml</excludeFilterFile>
-                <failOnError>true</failOnError>
+                <failOnError>false</failOnError>
 
                 <includeTests>false</includeTests>
                 <fork>true</fork>
@@ -248,7 +248,7 @@
                 </analysisConfigurationFiles>
                 <versionFormat>^\d+\.\d+\.\d+$</versionFormat>
                 <checkDependencies>true</checkDependencies>
-                <failBuildOnProblemsFound>true</failBuildOnProblemsFound>
+                <failBuildOnProblemsFound>false</failBuildOnProblemsFound>
                 </configuration>
                 <dependencies>
                 <dependency>
