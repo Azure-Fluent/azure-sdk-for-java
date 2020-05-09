@@ -131,6 +131,12 @@
       {
         "regex": true,
         "code": "java\\.class\\.externalClassExposedInAPI",
+        "new": "(interface|class|enum) com\\.azure\\.management\\.msi.*",
+        "justification": "azure-core classes are allowed to be exposed by dependencies using them."
+      },
+      {
+        "regex": true,
+        "code": "java\\.class\\.externalClassExposedInAPI",
         "new": "(interface|class|enum) com\\.azure\\.security\\.keyvault.*",
         "justification": "azure-core classes are allowed to be exposed by dependencies using them."
       },
