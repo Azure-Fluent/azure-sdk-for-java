@@ -138,7 +138,7 @@
       {
         "regex": true,
         "code": "java\\.class\\.externalClassExposedInAPI",
-        "new": "(interface|class|enum) com\\.azure\\.management\\.keyvault.*",
+        "new": "(interface|class|enum) com\\.azure\\.management.*",
         "justification": "azure-core classes are allowed to be exposed by dependencies using them."
       },
       {
